@@ -16,7 +16,7 @@ jobs:
     - name: List All Files with Path
       run: find . -type f
 
-    - name: Executing Shell script
+    - name: Executing Shell script for 
       run: |
        chmod +x ./.github/workflows/ascii-script.sh
        ./.github/workflows/ascii-script.sh
